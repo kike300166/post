@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE CONTACTO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form">
+<form action="registro.php" method="POST">
+    <p>Nombre</p>
+    <label for="nombre">su nombre</label>
+    <br>
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <p>Correo</p>
+    <label for="Correo">Dirección de Correo</label>
+    <br>
+    <input type="email" name="Correo" placeholder="alguien@algo.com" required>
+    <p>Mensaje</p>
+    <label for="mensaje">Su Mensaje</label>
+    <br>
+    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+    <br>
+    <br>
+    <input type="submit" value="enviar">
+</form>
+    </div>
+</body>
+</html>
